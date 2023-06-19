@@ -1,0 +1,25 @@
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/2.JPG");
+	background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: calc(100%);
+    position: fixed;
+    top:0;
+    left: 10px;
+    
+}
+main#main{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    width:100%;
+    height: calc(100%);
+    display: flex;
+    color: rgb(0, 0, 0);
+    
+}
+
+

@@ -1,0 +1,48 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/caf.jpg");
+	background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: calc(100%);
+    position: fixed;
+    top:0;
+    left: 10px;
+    
+}
+.modal-dialog.large {
+    width: 80% !important;
+    max-width: unset;
+}
+    .modal-dialog.mid-large {
+    width: 50% !important;
+    max-width: unset;
+}
+#viewer_modal .btn-close {
+    position: absolute;
+    z-index: 999999;
+    background: unset;
+    color: rgb(255, 255, 255);
+    border: unset;
+    font-size: 27px;
+    top: 0;
+}
+#viewer_modal .modal-dialog {
+    width: 80%;
+    max-width: unset;
+    height: calc(90%);
+    max-height: unset;
+}
+#viewer_modal .modal-content {
+    background: rgb(0, 0, 0);
+    border: unset;
+    height: calc(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#viewer_modal img,#viewer_modal video{
+    max-height: calc(100%);
+    max-width: calc(100%);
+}
